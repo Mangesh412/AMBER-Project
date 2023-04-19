@@ -1,0 +1,59 @@
+body{
+    background-color: rgba(9, 9, 9, 0.701);
+    color: coral;
+}
+.jumbotron img{
+    width: 600px;
+    height: 400px;
+}
+.jumbotron{
+    background-color: transparent;
+}
+.jumbo-container{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    padding-left: 40px;
+    font-size: 20px;
+}
+.Ingrediants-image{
+    height: 600px;
+    width: 400px;
+    margin: auto;
+    display: flex; justify-content: center;
+}
+h3{
+    color: rgb(248, 247, 247);
+    text-decoration: underline;
+}
+span{
+    font-family: fontawesome;
+}
+.another-img{
+    width: 800px;
+    height: 400px;
+}
+
+@media screen and (max-width: 768px) {
+    .Ingrediants-image{
+        height: 400px;
+        width: 300px;
+        margin: auto;
+        /* display: flex; justify-content: center; */
+        padding-left: 40px;
+    }
+    .Ingrediants-image img{
+        height: 300px;
+        width: 400px;
+    }
+    .another-img{
+        width: 150px;
+        height: 400px;
+    }
+    .jumbotron img{
+        width: 400px;
+        height: 200px;
+    }
+}

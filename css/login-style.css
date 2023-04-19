@@ -1,0 +1,94 @@
+body{
+    background-image: url("images/login_img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login-form{
+    background-color: rgba(9, 9, 9, 0.529);
+    padding: 40px;
+    margin-top: 40px;
+}
+.signup-form{
+    background-color: rgba(9, 9, 9, 0.529);
+    padding: 40px;
+    margin-top: 20px;
+}
+#for-mobile{
+    height: 0;
+    width: 0;
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+    overflow: hidden;
+}
+span{
+    font-family: fontawesome;
+}
+.contain{
+    background-color: rgba(9, 9, 9, 0.529);
+    /* padding-left: 30px; */
+    padding: 50px;
+    margin-bottom: 80px;
+}
+.team-names{
+    padding-left: 80px;
+}
+.login-back{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+@media screen and (max-width: 768px) {
+    #for-desktop{
+        height: 0;
+        width: 0;
+        margin: 0;
+        padding: 0;
+        visibility: hidden;
+        overflow: hidden;
+    }
+    #for-mobile{
+        height: auto;
+        width: auto;
+        margin: 0;
+        padding: 0;
+        visibility: visible;
+    }
+    .container-fluid{
+        padding: 0;
+    }
+    .pad{
+        padding: 0;
+        /* margin: 0; */
+    }
+    body{
+        background-image: url("images/login_img-mobile.jpg");
+    }
+    span{
+        font-family: fontawesome;
+    }
+    #form-row{
+        margin-bottom: 30px;
+    }
+    .login-form{
+        margin-top: 0px
+    }
+    
+    .contain h1{
+        font-size: 30px;
+    }
+    .contain h4{
+        font-size: 18px;
+    }
+    .contain{
+        padding-left: 10px;
+    }
+    .team-names{
+        padding-left: 10px;
+    }
+    .login-back{
+        color: white;
+        text-decoration: underline;
+        text-decoration-color: black;
+    }
+}

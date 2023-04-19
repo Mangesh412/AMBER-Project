@@ -1,0 +1,100 @@
+.jumbotron-background{
+    background-image: url("images/jumbotron-background.jpg") !important;
+    background-size: cover;
+    padding: 80px;
+    /* opacity: 0.7; */
+}
+.jumbotron-background-blur{
+    background-color: rgba(9, 9, 9, 0.42);
+    padding: 20px;
+}
+.mycarousel{
+    height: 400px;
+    width: 600px;
+    /* margin-bottom: 30px; */
+}
+.carousel-col{
+    padding-left: 370px;
+    margin-bottom: 30px;
+    /* margin: auto; */
+}
+.bordercar{
+    border: 15px  grey;
+    border-style: double;
+    width: 610px;
+    border-radius: 30px;
+    overflow: hidden;
+    /* padding-bottom: 50px; */
+}
+.caption-background{
+    background-color: rgba(0, 0, 0, 0.493);
+}
+.card{
+    margin: 0px 20px;
+}
+.width100{
+    width: 1370px;
+    /* padding-left: 40px; */
+}
+span{
+    font-family: fontawesome;
+}
+#for-mobile{
+    visibility: hidden;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.819);
+}
+@media screen and (max-width: 768px) {
+    #for-desktop{
+        visibility: hidden;
+        overflow: hidden;
+        width: 0;
+        height: 0;
+    }
+    #for-mobile{
+        visibility: visible;
+        overflow: hidden;
+        width: auto;
+        height: auto;
+    }
+    .container-fluid{
+        margin: 0;
+        padding: 0;
+    }
+    .jumbotron h1{
+        font-size: 30px;
+    }
+    .jumbotron-background{
+        padding: 30px 0;   
+    }
+    .mycarousel{
+        width: 350px;
+    }
+    .bordercar{
+        border: 15px  grey;
+        border-style: double;
+        width: 370px;
+        border-radius: 30px;
+        overflow: hidden;
+        /* padding-bottom: 50px; */
+        height: 220px;
+    }
+    /* .center{
+        display: flex;
+        justify-content: center;
+    } */
+    .center a{
+        margin-left: 110px;
+    }
+    .back{
+        background-color: black;
+    }
+    .space{
+        margin-top: 20px;
+    }
+    .accordion{
+        width: 400px !important;
+    }
+}
