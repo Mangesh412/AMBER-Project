@@ -13,6 +13,8 @@
         integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    
     <title>Recipe Book</title>
 </head>
 
@@ -51,14 +53,15 @@
             <div class="col">
                 <div class="jumbotron jumbotron-fluid jumbotron-background">
                     <div class="container jumbotron-background-blur">
-                        <h1 class="display-4 text-center text-white font-weight-bolder text-monospace animate__animated animate__lightSpeedInLeft">Unlock the
+                        <h1 class="display-4 text-center text-white font-weight-bolder text-monospace animate__animated animate__lightSpeedInLeft"
+                            id="word">Unlock the
                             flavors of the world with our recipe book</h1>
 
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row">
+        <!-- <div class="row">
 
 
             <div class="col-12 carousel-col">
@@ -122,10 +125,91 @@
             </div>
 
 
+        </div><br> -->
+
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <p>Tamil Cuisine</p>
+                        <img src="css/images/tamil food.webp" height="500px" width="400px"/>
+                      </div>
+                      <div class="swiper-slide">
+                        <p>Maharashtrian Cuisine</p>
+                        <img src="css/images/maharashtran food.png" height="500px" width="400px"/>
+                      </div>
+                      <div class="swiper-slide">
+                        <p>Punjabi Cuisine</p>
+                        <img src="css/images/punjabi food.jpg" height="500px" width="400px"/>
+                      </div>
+                      <div class="swiper-slide">
+                        <p>Chinese Cuisine</p>
+                        <img src="css/images/chinese food.webp" height="500px" width="400px"/>
+                      </div>
+                      <!-- <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+                      </div> -->
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-pagination"></div>
+                    <div class="autoplay-progress">
+                        <svg viewBox="0 0 48 48">
+                          <circle cx="24" cy="24" r="20"></circle>
+                        </svg>
+                        <span></span>
+                      </div>
+                  </div>
+                <!-- <div class="swiper">
+                    
+                    <div class="swiper-wrapper">
+                      
+                        <div class="swiper-slide">
+                            <img src="css/images/tamil food.webp" class="d-block w-100" alt="..."
+                                style="height: 300px;">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="css/images/maharashtran food.png" class="d-block w-100" alt="..."
+                                style="height: 300px;">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="css/images/punjabi food.jpg" class="d-block w-100" alt="..."
+                                style="height: 300px;">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="css/images/chinese food.webp" class="d-block w-100" alt="..."
+                                style="height: 300px;">
+                        </div>
+                    </div>
+                   
+                    <div class="swiper-pagination"></div>
+
+                    
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                    
+                    <div class="swiper-scrollbar"></div>
+                </div> -->
+            </div>
         </div><br>
         <div class="row">
             <div class="col">
-                <h2 class="text-center text-monospace font-weight-bold animate__animated animate__lightSpeedInLeft " style="text-decoration: underline;">Tamil
+                <h2 class="text-center text-monospace font-weight-bold animate__animated animate__lightSpeedInLeft "
+                    style="text-decoration: underline;">Tamil
                     Cuisine</h2>
             </div>
         </div>
@@ -187,7 +271,7 @@
                         <a href="pongal.html" class="btn btn-primary">View Recipe</a>
                     </div>
                 </div>
-               
+
             </div>
             <div class="row">
                 <div class="col-12 justify-content-center width100"
@@ -196,225 +280,222 @@
                 </div>
             </div>
 
-            
-            </div><br>
-            <div class="row" style="margin-top: 50px;">
-                <div class="col">
-                    <h2 class="text-center text-monospace font-weight-bold" style="text-decoration: underline;">
-                        Maharashtrian
-                        Cuisine</h2>
-                </div>
-            </div><br>
-            <div class="row">
-                <div class="col" style="padding: 0px 40px; display: flex;">
-                    <div class="card" style="width: 18rem;">
-                        <img src="css/images/Zunka Bhakar.jpg" class="card-img-top" alt="..." style="height: 220px;">
-                        <div class="card-body">
-                            <h5 class="card-title">Zunka Bhakar</h5>
-                            <p class="card-text"> Zunka Bhakar is a rustic food from the belly of Pune, a city that lies
-                                southeast of Bombay. A flatbread of millet flour is served alongside a stir-fry of
-                                vegetables with chickpea flour. It is spicy, savory, delicious, gluten-free and, of
-                                course,
-                                vegan.</p><br><br>
-                            <a href="zunka bhakri.html" class="btn btn-primary">View Recipe</a>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="css/images/Bharli wangi.jpg" class="card-img-top" alt="..." style="height: 220px;">
-                        <div class="card-body">
-                            <h5 class="card-title">Bharli Vangi</h5>
-                            <p class="card-text"> Bharli Vangi is a classic brinjal recipe from the cuisine of
-                                Maharashtra
-                                and this one especially, is how my mother prepares it. In Marathi language, the word
-                                'bharli' means 'stuffed' and 'vangi' is 'brinjal/aubergine/eggplant or baingan.' Hence,
-                                the
-                                dish is rightly named so.</p>
-                            <a href="bharli vangi.html" class="btn btn-primary">View Recipe</a>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="css/images/sabudana khichadi.jpg" class="card-img-top" alt="..."
-                            style="height: 220px;">
-                        <div class="card-body">
-                            <h5 class="card-title">Sabudana Khichdi</h5>
-                            <p class="card-text"> Sabudana Khichdi is a delicious and nutritious recipe cooked with
-                                Tapioca
-                                pearls/Sago, potatoes, roasted peanuts, especially during the fasting season of Navratri
-                                or
-                                Maha Shivaratri in India.</p><br><br><br>
-                            <a href="shabudana khichri.html" class="btn btn-primary">View Recipe</a>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="css/images/thalipith.jpg" class="card-img-top" alt="..." style="height: 220px;">
-                        <div class="card-body">
-                            <h5 class="card-title">Thalipeeth</h5>
-                            <p class="card-text"> Thalipeeth is a savoury multi-grain flatbread popular in Western
-                                India,
-                                particularly Maharashtra. The flour for thalipeeth, called bhajanee, is prepared from
-                                roasted grains, legumes and spices. </p><br><br><br>
-                            <a href="thalipeeth.html" class="btn btn-primary">View Recipe</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 justify-content-center width100"
-                        style="padding: 20px; display: flex; justify-content: center;">
-                        <a class="btn btn-primary" href="#" role="button">View More</a>
-                    </div>
-                </div>
-            </div><br>
-            <div class="row" style="margin-top: 50px;">
-                <div class="col">
-                    <h2 class="text-center text-monospace font-weight-bold" style="text-decoration: underline;">Punjabi
-                        Cuisine</h2>
-                </div>
-            </div><br>
-            <div class="row">
-                <div class="col" style="padding: 0px 40px; display: flex;">
-                    <div class="card" style="width: 18rem;">
-                        <img src="css/images/Chole_Bhature.jfif" class="card-img-top" alt="..." style="height: 220px;">
-                        <div class="card-body">
-                            <h5 class="card-title">Chole Bhature</h5>
-                            <p class="card-text"> Chole bhature is a food dish popular in the Northern areas of the
-                                Indian
-                                subcontinent. It is a combination of chana masala and bhatura/puri, a deep-fried bread
-                                made
-                                from maida. Chole bhature is often eaten as a breakfast dish, sometimes accompanied with
-                                lassi.</p>
-                            <a href="#" class="btn btn-primary">View Recipe</a>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="css/images/panner butter.jfif" class="card-img-top" alt="..." style="height: 220px;">
-                        <div class="card-body">
-                            <h5 class="card-title">Paneer butter masala</h5>
-                            <p class="card-text"> Paneer butter masala, also known as butter paneer is a rich & creamy
-                                curry
-                                made with paneer, spices, onions, tomatoes, cashews and butter.</p><br><br><br><br>
-                            <a href="#" class="btn btn-primary">View Recipe</a>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="css/images/makki ki roti.webp" class="card-img-top" alt="..." style="height: 220px;">
-                        <div class="card-body">
-                            <h5 class="card-title">Makki ki roti</h5>
-                            <p class="card-text"> Makki ki roti is a flat unleavened bread made from corn meal,
-                                primarily
-                                eaten in the Jammu region, Himachal Pradesh, Punjab, Haryana.</p><br><br><br><br>
-                            <a href="#" class="btn btn-primary">View Recipe</a>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="css/images/Dal-Makhani.jpg" class="card-img-top" alt="..." style="height: 220px;">
-                        <div class="card-body">
-                            <h5 class="card-title">Dal makhani</h5>
-                            <p class="card-text"> Dal makhani is a dish originating in Punjab, India. A relatively
-                                modern
-                                variation of traditional lentil dishes, it is made with urad dal and other pulses, and
-                                includes butter and cream.</p><br><br><br>
-                            <a href="#" class="btn btn-primary">View Recipe</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 justify-content-center width100"
-                        style="padding: 20px; display: flex; justify-content: center;">
-                        <a class="btn btn-primary" href="#" role="button">View More</a>
-                    </div>
-                </div>
-            </div><br>
-            <div class="row">
-                <div class="col" style="margin-top: 50px;">
-                    <h2 class="text-center text-monospace font-weight-bold" style="text-decoration: underline;">Chinise
-                        Cuisine</h2>
-                </div>
-            </div><br>
-            <div class="row">
-                <div class="col" style="padding: 0px 40px; display: flex;">
-                    <div class="card" style="width: 18rem;">
-                        <img src="css/images/Manchow-soup.jpg" class="card-img-top" alt="..." style="height: 220px;">
-                        <div class="card-body">
-                            <h5 class="card-title">Manchow soup</h5>
-                            <p class="card-text"> Manchow soup is a soup popular in Indian Chinese cuisine due to its
-                                easy
-                                preparation and hot spicy taste. It is available in many restaurants and street food
-                                carts
-                                alike.</p><br><br><br>
-                            <a href="manchowsoup.html" class="btn btn-primary"
-                                style="position: relative; bottom: 0;">View
-                                Recipe</a>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="css/images/dim sum.webp" class="card-img-top" alt="..." style="height: 220px;">
-                        <div class="card-body">
-                            <h5 class="card-title">Dim sum</h5>
-                            <p class="card-text"> Dim sum is a large range of small Cantonese dishes that are
-                                traditionally
-                                enjoyed in restaurants for brunch. Most modern dim sum dishes are commonly associated
-                                with
-                                Cantonese cuisine, although dim sum dishes also exist in other Chinese cuisines.</p>
-                            <a href="dimsum.html" class="btn btn-primary">View Recipe</a>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="css/images/chow-mein.webp" class="card-img-top" alt="..." style="height: 220px;">
-                        <div class="card-body">
-                            <h5 class="card-title">Chow mein</h5>
-                            <p class="card-text"> Chow mein is a Chinese dish made from stir-fried noodles with
-                                vegetables
-                                and sometimes meat or tofu. Over the centuries, variations of chǎomiàn were developed in
-                                many regions of China; there are several methods of frying the noodles and a range of
-                                toppings can be used.</p>
-                            <a href="chowmein.html" class="btn btn-primary">View Recipe</a>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="css/images/veg-fried-rice-recipe.webp" class="card-img-top" alt="..."
-                            style="height: 220px;">
-                        <div class="card-body">
-                            <h5 class="card-title">Fried rice</h5>
-                            <p class="card-text"> Fried rice is a dish of cooked rice that has been stir-fried in a wok
-                                or a
-                                frying pan and is usually mixed with other ingredients such as eggs, vegetables,
-                                seafood, or
-                                meat. It is often eaten by itself or as an accompaniment to another dish.</p><br>
-                            <a href="friedrice.html" class="btn btn-primary">View Recipe</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 justify-content-center width100"
-                        style="padding: 20px; display: flex; justify-content: center;">
-                        <a class="btn btn-primary" href="#" role="button">View More</a>
-                    </div>
-                </div>
-            </div><br>
-            <div class="row bg-dark">
-                <div class="col footer">
-                    <p class="justify-content-start" style="padding-top: 10px; color: white;">Made by :- <span
-                            style="font-weight: 800; font-style: italic;">@Mangesh Shaligram,&nbsp;&nbsp; @Pritam
-                            Surve,&nbsp;&nbsp; @Akanksha Chaudhari,&nbsp;&nbsp; @Mayuri Patil</span></p>
-                </div>
-                <div class="col">
-                    <ul class="nav justify-content-end ">
 
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#"><span style="font-size: 20px;">&#xf09a;</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><span
-                                    style="color: green; font-size: 20px;">&#xf232;</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><span
-                                    style="color: rgba(246, 5, 146, 0.998); font-size: 20px;">&#xf16d;</span></a>
-                        </li>
-                    </ul>
+        </div><br>
+        <div class="row" style="margin-top: 50px;">
+            <div class="col">
+                <h2 class="text-center text-monospace font-weight-bold" style="text-decoration: underline;">
+                    Maharashtrian
+                    Cuisine</h2>
+            </div>
+        </div><br>
+        <div class="row">
+            <div class="col" style="padding: 0px 40px; display: flex;">
+                <div class="card" style="width: 18rem;">
+                    <img src="css/images/Zunka Bhakar.jpg" class="card-img-top" alt="..." style="height: 220px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Zunka Bhakar</h5>
+                        <p class="card-text"> Zunka Bhakar is a rustic food from the belly of Pune, a city that lies
+                            southeast of Bombay. A flatbread of millet flour is served alongside a stir-fry of
+                            vegetables with chickpea flour. It is spicy, savory, delicious, gluten-free and, of
+                            course,
+                            vegan.</p><br><br>
+                        <a href="zunka bhakri.html" class="btn btn-primary">View Recipe</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="css/images/Bharli wangi.jpg" class="card-img-top" alt="..." style="height: 220px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Bharli Vangi</h5>
+                        <p class="card-text"> Bharli Vangi is a classic brinjal recipe from the cuisine of
+                            Maharashtra
+                            and this one especially, is how my mother prepares it. In Marathi language, the word
+                            'bharli' means 'stuffed' and 'vangi' is 'brinjal/aubergine/eggplant or baingan.' Hence,
+                            the
+                            dish is rightly named so.</p>
+                        <a href="bharli vangi.html" class="btn btn-primary">View Recipe</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="css/images/sabudana khichadi.jpg" class="card-img-top" alt="..." style="height: 220px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Sabudana Khichdi</h5>
+                        <p class="card-text"> Sabudana Khichdi is a delicious and nutritious recipe cooked with
+                            Tapioca
+                            pearls/Sago, potatoes, roasted peanuts, especially during the fasting season of Navratri
+                            or
+                            Maha Shivaratri in India.</p><br><br><br>
+                        <a href="shabudana khichri.html" class="btn btn-primary">View Recipe</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="css/images/thalipith.jpg" class="card-img-top" alt="..." style="height: 220px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Thalipeeth</h5>
+                        <p class="card-text"> Thalipeeth is a savoury multi-grain flatbread popular in Western
+                            India,
+                            particularly Maharashtra. The flour for thalipeeth, called bhajanee, is prepared from
+                            roasted grains, legumes and spices. </p><br><br><br>
+                        <a href="thalipeeth.html" class="btn btn-primary">View Recipe</a>
+                    </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-12 justify-content-center width100"
+                    style="padding: 20px; display: flex; justify-content: center;">
+                    <a class="btn btn-primary" href="#" role="button">View More</a>
+                </div>
+            </div>
+        </div><br>
+        <div class="row" style="margin-top: 50px;">
+            <div class="col">
+                <h2 class="text-center text-monospace font-weight-bold" style="text-decoration: underline;">Punjabi
+                    Cuisine</h2>
+            </div>
+        </div><br>
+        <div class="row">
+            <div class="col" style="padding: 0px 40px; display: flex;">
+                <div class="card" style="width: 18rem;">
+                    <img src="css/images/Chole_Bhature.jfif" class="card-img-top" alt="..." style="height: 220px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Chole Bhature</h5>
+                        <p class="card-text"> Chole bhature is a food dish popular in the Northern areas of the
+                            Indian
+                            subcontinent. It is a combination of chana masala and bhatura/puri, a deep-fried bread
+                            made
+                            from maida. Chole bhature is often eaten as a breakfast dish, sometimes accompanied with
+                            lassi.</p>
+                        <a href="#" class="btn btn-primary">View Recipe</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="css/images/panner butter.jfif" class="card-img-top" alt="..." style="height: 220px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Paneer butter masala</h5>
+                        <p class="card-text"> Paneer butter masala, also known as butter paneer is a rich & creamy
+                            curry
+                            made with paneer, spices, onions, tomatoes, cashews and butter.</p><br><br><br><br>
+                        <a href="#" class="btn btn-primary">View Recipe</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="css/images/makki ki roti.webp" class="card-img-top" alt="..." style="height: 220px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Makki ki roti</h5>
+                        <p class="card-text"> Makki ki roti is a flat unleavened bread made from corn meal,
+                            primarily
+                            eaten in the Jammu region, Himachal Pradesh, Punjab, Haryana.</p><br><br><br><br>
+                        <a href="#" class="btn btn-primary">View Recipe</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="css/images/Dal-Makhani.jpg" class="card-img-top" alt="..." style="height: 220px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Dal makhani</h5>
+                        <p class="card-text"> Dal makhani is a dish originating in Punjab, India. A relatively
+                            modern
+                            variation of traditional lentil dishes, it is made with urad dal and other pulses, and
+                            includes butter and cream.</p><br><br><br>
+                        <a href="#" class="btn btn-primary">View Recipe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 justify-content-center width100"
+                    style="padding: 20px; display: flex; justify-content: center;">
+                    <a class="btn btn-primary" href="#" role="button">View More</a>
+                </div>
+            </div>
+        </div><br>
+        <div class="row">
+            <div class="col" style="margin-top: 50px;">
+                <h2 class="text-center text-monospace font-weight-bold" style="text-decoration: underline;">Chinise
+                    Cuisine</h2>
+            </div>
+        </div><br>
+        <div class="row">
+            <div class="col" style="padding: 0px 40px; display: flex;">
+                <div class="card" style="width: 18rem;">
+                    <img src="css/images/Manchow-soup.jpg" class="card-img-top" alt="..." style="height: 220px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Manchow soup</h5>
+                        <p class="card-text"> Manchow soup is a soup popular in Indian Chinese cuisine due to its
+                            easy
+                            preparation and hot spicy taste. It is available in many restaurants and street food
+                            carts
+                            alike.</p><br><br><br>
+                        <a href="manchowsoup.html" class="btn btn-primary" style="position: relative; bottom: 0;">View
+                            Recipe</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="css/images/dim sum.webp" class="card-img-top" alt="..." style="height: 220px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Dim sum</h5>
+                        <p class="card-text"> Dim sum is a large range of small Cantonese dishes that are
+                            traditionally
+                            enjoyed in restaurants for brunch. Most modern dim sum dishes are commonly associated
+                            with
+                            Cantonese cuisine, although dim sum dishes also exist in other Chinese cuisines.</p>
+                        <a href="dimsum.html" class="btn btn-primary">View Recipe</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="css/images/chow-mein.webp" class="card-img-top" alt="..." style="height: 220px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Chow mein</h5>
+                        <p class="card-text"> Chow mein is a Chinese dish made from stir-fried noodles with
+                            vegetables
+                            and sometimes meat or tofu. Over the centuries, variations of chǎomiàn were developed in
+                            many regions of China; there are several methods of frying the noodles and a range of
+                            toppings can be used.</p>
+                        <a href="chowmein.html" class="btn btn-primary">View Recipe</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="css/images/veg-fried-rice-recipe.webp" class="card-img-top" alt="..."
+                        style="height: 220px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Fried rice</h5>
+                        <p class="card-text"> Fried rice is a dish of cooked rice that has been stir-fried in a wok
+                            or a
+                            frying pan and is usually mixed with other ingredients such as eggs, vegetables,
+                            seafood, or
+                            meat. It is often eaten by itself or as an accompaniment to another dish.</p><br>
+                        <a href="friedrice.html" class="btn btn-primary">View Recipe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 justify-content-center width100"
+                    style="padding: 20px; display: flex; justify-content: center;">
+                    <a class="btn btn-primary" href="#" role="button">View More</a>
+                </div>
+            </div>
+        </div><br>
+        <div class="row bg-dark">
+            <div class="col footer">
+                <p class="justify-content-start" style="padding-top: 10px; color: white;">Made by :- <span
+                        style="font-weight: 800; font-style: italic;">@Mangesh Shaligram,&nbsp;&nbsp; @Pritam
+                        Surve,&nbsp;&nbsp; @Akanksha Chaudhari,&nbsp;&nbsp; @Mayuri Patil</span></p>
+            </div>
+            <div class="col">
+                <ul class="nav justify-content-end ">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"><span style="font-size: 20px;">&#xf09a;</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span style="color: green; font-size: 20px;">&#xf232;</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span
+                                style="color: rgba(246, 5, 146, 0.998); font-size: 20px;">&#xf16d;</span></a>
+                    </li>
+                </ul>
+            </div>
         </div>
+    </div>
     </div>
     <div class="container-fluid" id="for-mobile">
         <div class="row">
@@ -940,6 +1021,46 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js"
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    
+    <script>
+        setTimeout(() => {
+            var typed = new Typed("#word", {
+                strings: ["Cook up a storm with our recipe book ^3000", "Unleash your inner chef with our recipe book ^3000", "A delicious adventure awaits in our recipe book^3000", "From our kitchen to yours: A recipe book for foodies^3000", "Discover culinary magic with our recipe book^3000", "Elevate your cooking game with our recipe book^3000", "The ultimate recipe book for food lovers^3000", "Get inspired in the kitchen with our recipe book^3000", "Transform your meals with our recipe book^3000", "Find your next favorite dish in our recipe book^3000"],
+                typeSpeed: 50,
+                backSpeed: 20,
+                //   loop:true,
+                showCursor: false
+            })
+        }, 3000);
+        </script>
+      <script>
+        const progressCircle = document.querySelector(".autoplay-progress svg");
+    const progressContent = document.querySelector(".autoplay-progress span");
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+      },
+      on: {
+        autoplayTimeLeft(s, time, progress) {
+          progressCircle.style.setProperty("--progress", 1 - progress);
+          progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+        }
+      }
+    });
+    </script>
 </body>
 
 </html>
